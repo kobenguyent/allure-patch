@@ -1,0 +1,38 @@
+{
+  "name": "allure-patch",
+  "version": "1.0.0",
+  "description": "Inspired by from the JavaScript repo [allure-single-html-file-js] to create a single html files using all the allure report data",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --config ./jest.config.js",
+    "debug": "node --inspect ./node_modules/.bin/jest --config ./jest.config.js"
+  },
+  "author": "kobenguyent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobenguyent/allure-patch/issues"
+  },
+  "homepage": "https://github.com/kobenguyent/allure-patch#readme",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "glob": "^8.0.1",
+    "jssoup": "^0.0.15"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.2",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "bin/*",
+    "README.md"
+  ]
+}
