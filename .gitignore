@@ -1,6 +1,5 @@
 /node_modules
 dist
-bin
 package-lock.json
 .idea
 *_app.log
