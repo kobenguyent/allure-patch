@@ -1,8 +1,8 @@
 {
   "name": "allure-patch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inspired by from the JavaScript repo [allure-single-html-file-js] to create a single html files using all the allure report data",
-  "bin": "./bin/index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --config ./jest.config.js",
     "debug": "node --inspect ./node_modules/.bin/jest --config ./jest.config.js"
